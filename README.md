@@ -16,22 +16,22 @@ The SQL scripts move from foundational exploration to analysis-ready reporting v
 
 ```text
 .
-├── datasets/
-│   ├── DataWarehouseAnalytics.bak
-│   └── flat-files/
-│       ├── dim_customers.csv
-│       ├── dim_products.csv
-│       └── fact_sales.csv
-├── reports/
-│   └── sql-data-analytics-report.pdf
-├── scripts/
-│   ├── 00_init_database.sql
-│   ├── 01_database_exploration.sql
-│   ├── ...
-│   ├── 12_report_customers.sql
-│   └── 13_report_products.sql
-├── LICENSE
-└── README.md
+|-- datasets/
+|   |-- DataWarehouseAnalytics.bak
+|   `-- flat-files/
+|       |-- dim_customers.csv
+|       |-- dim_products.csv
+|       `-- fact_sales.csv
+|-- reports/
+|   `-- sql-data-analytics-report.pdf
+|-- scripts/
+|   |-- 00_init_database.sql
+|   |-- 01_database_exploration.sql
+|   |-- ...
+|   |-- 12_report_customers.sql
+|   `-- 13_report_products.sql
+|-- LICENSE
+`-- README.md
 ```
 
 ## Analysis Areas
