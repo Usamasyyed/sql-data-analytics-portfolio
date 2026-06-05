@@ -1,0 +1,6 @@
+*.pdf binary
+*.bak binary
+*.csv text eol=crlf
+*.sql text eol=crlf
+*.md text eol=crlf
+LICENSE text eol=crlf
