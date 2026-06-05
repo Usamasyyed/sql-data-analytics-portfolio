@@ -1,0 +1,12 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime outputs
+*.log
+*.tmp
+
+# Original reference docs are intentionally not published
+docs/
