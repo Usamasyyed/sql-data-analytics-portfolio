@@ -58,15 +58,6 @@ The SQL scripts move from foundational exploration to analysis-ready reporting v
 - Reporting view creation with common table expressions.
 - Analytics documentation for a portfolio-ready repository.
 
-## How To Use
-
-1. Open SQL Server Management Studio or Azure Data Studio.
-2. Update the file paths in `scripts/00_init_database.sql` if your local clone is not stored under `C:\sql\sql-data-analytics-portfolio`.
-3. Run `scripts/00_init_database.sql` to create and load the `DataWarehouseAnalytics` database.
-4. Run the exploration and analysis scripts in numerical order.
-5. Run `scripts/12_report_customers.sql` and `scripts/13_report_products.sql` to create reusable reporting views.
-
-> Warning: `scripts/00_init_database.sql` drops and recreates the `DataWarehouseAnalytics` database if it already exists.
 
 ## Key Deliverables
 
